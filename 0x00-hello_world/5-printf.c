@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point, prints with proper grammar, but the outcome is a piece of art,
+ *
+ * Return: Always 0 (Sucess)
+ */
+int main(void)
+{
+	puts("with proper grammar, but the outcome is a piece of art,");
+	return (0)
+}
