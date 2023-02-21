@@ -6,7 +6,10 @@
  *
  * Return: ALways 0 (Success)
  */
-void myProgram() {
+void _putchar() {
 	printf("_putchar");
+}
+int main() {
+	_putchar();
 	return 0;
 }
