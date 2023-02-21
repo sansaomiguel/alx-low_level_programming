@@ -1,15 +1,16 @@
-#inside "main.h"
+#include "main.h"
 
-/**main - Entry point
+/**
+ * main - Entry point
  *
  * Return: Always 0
  */
-int main()
+
+void print_alphabet(void)
 {
-	char ch = 'a', ch = 'z';
-	for (ch = '1'; ch <= '27'; ch++)
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ++ch)
 		_putchar(ch);
 	_putchar('\n');
-	
-	return (0);
 }
