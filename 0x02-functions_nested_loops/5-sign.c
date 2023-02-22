@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_sign - return 0 lette r not lowercase, 1 letter lowercase
+ *
+ * @n: the int to print
+ * Return: Always 0.
+ */
 int print_sign(int n)
 {
 	if (n > 0)
