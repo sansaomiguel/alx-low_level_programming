@@ -1,5 +1,7 @@
+#inside "main.h"
+
 /**
- * _strchr - a function that locates a character in a string
+ * _strchr - function that locates a character in a string
  *
  * @s: pointer to our string array input
  * @c: character to locate from input array
@@ -23,4 +25,3 @@ char *_strchr(char *s, char c)
 
         return ('\0');
 }
-
