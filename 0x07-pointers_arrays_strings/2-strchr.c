@@ -1,13 +1,19 @@
 #include "main.h"
 
 /**
- * _strchr - function that locates a character in a string
+ * _strchr - function that locates a
+ * character in a string
  *
- * @s: pointer to our string array input
- * @c: character to locate from input array
+ * @s: pointer to our string
  *
- * Return:  a pointer to the first occurrence
- * of the character c in the string s, or NULL
+ * array input
+ *
+ * @c: character to locate from
+ *
+ * input array
+ *
+ * Return: pointer to the first
+ * occurrence of the character c in the string s, or NULL
  * :if the character is not found
  */
 
