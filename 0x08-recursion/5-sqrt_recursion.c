@@ -25,7 +25,7 @@ int _sqrt_recursion_wrapper(int n, int min, int max)
 }
 
 /**
- * _sqrt_recursion - function that returns the natural 
+ * _sqrt_recursion - function that returns the natural
  * number of a square root of a number
  * @n: input number
  * Return: square root
