@@ -1,15 +1,23 @@
 #include <stdio.h>
 
+/**
+ * main - entry point
+ * Return: 0
+ */
 int main(void)
 {
-	char alphabet;
-	alphabet = 'a';
+	char alphabet = 'a';
 
-	do{
+	do
+
+	{
 		putchar(alphabet);
 		alphabet++;
 	}
-	while (alphabet <= 'z');
+	while
+	{
+		(alphabet <= 'z');
+	}
 	putchar('\n');
 	return (0);
 }
