@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.g>
+#include <unistd.h>
 
 /**
  * main - Entry point
