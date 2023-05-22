@@ -6,10 +6,11 @@
  */
 int main(void)
 {
-	int n,m,k;
+	int n, m, k;
+
 	n = 0;
 	m = 1;
-	k = 3;
+	k = 2;
 
 	while (n <= 7)
 	{
