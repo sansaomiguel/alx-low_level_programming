@@ -9,14 +9,14 @@ int main(void)
 	int n = 1;
 	int nn = 0;
 
-	while (n <= 9)
+	while (n < 9)
 	{
 		while (nn <= 9)
 		{
-			putchar('0' + nn);
 			putchar('0' + n);
+			putchar('0' + nn);
 
-			if (n != 9 || nn != 9)
+			if (n != 8 || nn != 9)
 			{
 				putchar(',');
 				putchar(' ');
@@ -24,7 +24,7 @@ int main(void)
 			nn++;
 		}
 		n++;
-		nn = 0;
+		nn = n + 1;
 	}
 	putchar('\n');
 	return (0);
